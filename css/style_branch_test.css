@@ -198,3 +198,11 @@ display: flex;
   text-align: center;
   border-top: 12px solid #000; /* Ajuste a cor e a espessura conforme necessário */
 }
+
+
+/* --Layout do Site-- */
+
+.layout-lista{
+  display: inline-flex;
+  gap: 10px;
+}

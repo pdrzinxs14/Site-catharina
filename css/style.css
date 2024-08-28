@@ -1,0 +1,206 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  
+html, body{
+    height: 100%;
+  }
+  
+  .container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #checkbox-menu{
+    position: absolute;
+    opacity: 0;
+  }
+  
+  label{
+    cursor: pointer;
+    position: relative;
+    display: block;
+    height: 22px;
+    width: 30px;
+  }
+  
+  label span{
+    position: absolute;
+    display: block;
+    height: 5px;
+    width: 100%;
+    border-radius: 30px;
+    background: #000000;
+    transition: 0.25s ease-in-out;
+  }
+  
+  label span:nth-child(1){
+    top: 0;
+  }
+  
+  label span:nth-child(2){
+    top: 8px;
+  }
+  
+  label span:nth-child(3){
+    top: 16px;
+  }
+  
+  #checkbox-menu:checked + label span:nth-child(1){
+    transform: rotate(-45deg);
+    top: 8px;
+  }
+  
+  #checkbox-menu:checked + label span:nth-child(2){
+    opacity: 0;
+  }
+  
+  #checkbox-menu:checked + label span:nth-child(3){
+    transform: rotate(45deg);
+    top:8px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+  background-color:  #4d3a75
+}
+.Logo{
+  margin-left: 30px;
+   margin-top: 20px;
+}
+.PEI h5{
+  margin-left: 30px;
+  color: aliceblue;
+  margin-top:25px;
+}
+.Escola-Amador h5{
+  margin-left: -30px;
+  color: aliceblue;
+  margin-top: 50px
+}
+.unilateral{
+display: flex;
+}
+
+.Escola-Amador{
+  
+  margin-bottom: 10px;
+}
+
+.borda{
+  background-color: #fff;
+  height: 1px;
+  width: 440px; 
+  margin-left: 25px;
+}
+
+.footer-dois{
+  padding: 20px !important;
+}
+
+.borda{
+  border-bottom: 1px solid #fff;
+  
+}
+
+.telefone{
+  display: flex;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+.telefone h6{
+  color: #fff;
+  margin-left: 10px;
+  
+}
+.telefone img{
+  margin-top: 1px;
+
+}
+
+.Gmail{
+  display: flex;
+  margin-top: 5px;
+  margin-left: 40px;
+}
+.Gmail h6{
+  color: #fff;
+  margin-left: 10px;
+  
+}
+
+
+.Localização{
+  display: flex;
+  margin-top: 5px;
+  margin-left: 40px;
+}
+.Localização h6{
+  color: #fff;
+  margin-left: 10px;
+  
+}
+
+.Relógio{
+  display: flex;
+  margin-top: 5px;
+  margin-left: 40px;
+}
+.Relógio h6{
+  color: #fff;
+  margin-left: 10px; 
+}
+
+.LogoFaceInst{
+  display: flex;
+  margin-left: 40px;
+  margin-bottom: 40px !important;
+}
+
+.QR-code{
+  margin-left: 910px;
+  margin-top: -200px;
+  display: flex;
+}
+.QR-code h6{
+  color: #fff;
+  margin-left: 15px;
+}
+
+
+
+.footer-três{
+  color: #fff;
+  background-color: black;
+  text-align: center;
+  border-top: 12px solid #000; /* Ajuste a cor e a espessura conforme necessário */
+}
+
+
+/* --Layout do Site-- */
+#layout-footer {
+  display: inline-block;
+}
