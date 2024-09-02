@@ -3,6 +3,25 @@
     padding:0;
     box-sizing: border-box;
   }
+
+  .menu{
+    background-color: #7199de!important;
+  }
+  header li a{
+    color: #000000!important;
+  }
+  .dropdown-menu{
+    background-color: #7199de!important;
+  }
+  .dropdown-menu li a{
+    color: white!important;
+  }
+  .nav-item a{
+    color: white!important;
+  }
+  .dropdown-item{
+    background-color: transparent!important;
+  }
   
 html, body{
     height: 100%;
