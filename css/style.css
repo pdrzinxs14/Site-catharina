@@ -4,7 +4,18 @@
     box-sizing: border-box;
   }
 
+  .logo1 img{
+  
+  height: 140px;
+ }
 
+
+  .conteudo1{
+    max-width: 1140px;
+     margin: 0 auto;
+    
+  }
+  
 
 
 
