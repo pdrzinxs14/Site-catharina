@@ -169,111 +169,13 @@ html, body{
 
 
 
-footer{
-  background-color:  #21045e;
-}
-.Logo{
-  margin-left: 30px;
-   margin-top: 20px;
-}
-.PEI h5{
-  margin-left: 30px;
-  color: aliceblue;
-  margin-top:25px;
-}
-.Escola-Amador h5{
-  margin-left: -30px;
-  color: aliceblue;
-  margin-top: 50px
-}
-.unilateral{
-display: flex;
-}
-
-.Escola-Amador{
-  
-  margin-bottom: 10px;
-}
-
-.borda{
-  background-color: #fff;
-  height: 1px;
-  width: 440px; 
-  margin-left: 25px;
-}
-
-.footer-dois{
-  padding: 20px !important;
-}
-
-.borda{
-  border-bottom: 1px solid #fff;
-  
-}
-
-.telefone{
-  display: flex;
-  margin-top: 30px;
-  margin-left: 40px;
-}
-.telefone h6{
-  color: #fff;
-  margin-left: 10px;
-  
-}
-.telefone img{
-  margin-top: 1px;
-
-}
-
-.Gmail{
-  display: flex;
-  margin-top: 5px;
-  margin-left: 40px;
-}
-.Gmail h6{
-  color: #fff;
-  margin-left: 10px;
-  
-}
 
 
-.Localização{
-  display: flex;
-  margin-top: 5px;
-  margin-left: 40px;
-}
-.Localização h6{
-  color: #fff;
-  margin-left: 10px;
-  
-}
 
-.Relógio{
-  display: flex;
-  margin-top: 5px;
-  margin-left: 40px;
-}
-.Relógio h6{
-  color: #fff;
-  margin-left: 10px; 
-}
 
-.LogoFaceInst{
-  display: flex;
-  margin-left: 40px;
-  margin-bottom: 40px !important;
-}
 
-.QR-code{
-  margin-left: 910px;
-  margin-top: -200px;
-  display: flex;
-}
-.QR-code h6{
-  color: #fff;
-  margin-left: 15px;
-}
+
+
 
 
 
