@@ -15,8 +15,13 @@
     gap: 30px;
     display: flex;
   }
-
-  
+  .titulo-card{
+    text-align: center;
+    color: gray;
+    font-size: 35px;
+    font-family: ui-sans-serif;
+    padding-top: 10px;
+  }
   .menu{
     background-color: #081663!important;
   }
@@ -24,7 +29,7 @@
     color: #000000!important;
   }
   .dropdown-menu{
-    background-color: #7199de!important;
+    background-color: #081663!important;
   }
   .dropdown-menu li a{
     color: white!important;
