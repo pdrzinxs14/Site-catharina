@@ -3,10 +3,18 @@
     padding:0;
     box-sizing: border-box;
   }
-
-
-
-
+  .navbar{
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  .dropdown-menu a{
+    font-size: 14px;
+  }
+  .nav-item img{
+    width: 23px;
+    gap: 30px;
+    display: flex;
+  }
 
   
   .menu{
