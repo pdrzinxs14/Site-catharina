@@ -3,33 +3,20 @@
     padding:0;
     box-sizing: border-box;
   }
-  .navbar{
-    text-transform: uppercase;
-    font-size: 14px;
-  }
-  .dropdown-menu a{
-    font-size: 14px;
-  }
-  .nav-item img{
-    width: 23px;
-    gap: 30px;
-    display: flex;
-  }
-  .titulo-card{
-    text-align: center;
-    color: gray;
-    font-size: 35px;
-    font-family: ui-sans-serif;
-    padding-top: 10px;
-  }
+
+
+
+
+
+  
   .menu{
-    background-color: #081663!important;
+    background-color: #7199de!important;
   }
   header li a{
     color: #000000!important;
   }
   .dropdown-menu{
-    background-color: #081663!important;
+    background-color: #7199de!important;
   }
   .dropdown-menu li a{
     color: white!important;
