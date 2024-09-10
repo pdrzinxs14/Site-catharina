@@ -10,13 +10,13 @@
 
   
   .menu{
-    background-color: #7199de!important;
+    background-color: #081663!important;
   }
   header li a{
     color: #000000!important;
   }
   .dropdown-menu{
-    background-color: #7199de!important;
+    background-color: #081663!important;
   }
   .dropdown-menu li a{
     color: white!important;
@@ -96,6 +96,10 @@ html, body{
     max-width: 1140px;
      margin: 0 auto;
      padding: 10px 20px;
+  }
+  .conteudo-header{
+    max-width: 1140px;
+    margin: 0 auto;
   }
   .dropdown-menu li:hover{
     background-color: #e3dddd9d!important;
