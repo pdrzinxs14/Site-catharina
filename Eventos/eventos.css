@@ -1,60 +1,101 @@
 * {
-    box-sizing: border-box;
-}
-@font-face {
-    font-family: 'myriad';
-    src: url('../fonts/myriad-pro/MyriadPro-Light.otf') format('opentype'); /* Para .ttf */
-    /* ou use .woff, .woff2 se for o caso */
-}
-    
-body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: #fff;
-    font-family: 'myriad';              
 }
+.menu {
+    background-color: #081663 !important;
+}
+
+header li a {
+    color: #000000 !important;
+}
+
+.dropdown-menu {
+    background-color: #081663 !important;
+}
+
+.dropdown-menu li a {
+    color: white !important;
+}
+
+.nav-item a {
+    color: white !important;
+}
+
+.dropdown-item {
+    background-color: transparent !important;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.card {
+    border: none !important;
+}
+
 .container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    width: 80%;
-    max-width: 1200px;
-    padding: 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.conteudo-header {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.dropdown-menu li:hover {
+    background-color: #e3dddd9d !important;
+    transition: 0.2s;
+}
+
+.dropdown-menu a:hover {
+    color: black !important;
+}
+
+.dropdown-menu {
+    padding: 0 !important;
+}
+.row{
+    width: 90%;
 }
 .card {
-    background-color: #fff;
-    border-radius: 10px;
-    overflow: hidden;
-    transition: transform 0.3s ease-in-out;
+background-color: #fff;
+border-radius: 10px;
+overflow: hidden;
+transition: transform 0.3s ease-in-out;
 }
 .card:hover {
-    transform: translateY(-10px);
+transform: translateY(-10px);
 }
 .card img {
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 10px;
+width: 100%;
+height: 150px;
+object-fit: cover;
+border-radius: 10px;
 }
-.card-content {
-    padding: 15px;
+.card-body {
+padding: 15px;
 }
 .card-title {
-    font-size: 1.2em;
-    margin: 0 0 10px;
-    color: #f6ad39;
+font-size: 1.2em;
+margin: 0 0 10px;
+color: #f6ad39;
 }
 .card-text {
-    font-size: 0.9em;
-    color: #666;
+font-size: 0.9em;
+color: #666;
 }
 .button {
-
 display: inline-block;
 padding: 10px 15px;
 margin-top: 10px;
@@ -73,11 +114,17 @@ margin-bottom: 30px;
     max-width: 1200px;
     height: 300px; /* Altura do banner */
     margin: 20px auto;
+    max-width: 1400px;
+    height: 300px;
+    margin: 0;
     background-image: url('https://cdn.atletis.com.br/atletis-website/base/ff2/c73/2d8/organizar-evento-esportivo-escola.jpg'); /* Substitua pela URL da sua imagem */
     background-size: cover; /* Faz a imagem cobrir todo o banner */
     background-position: center; /* Centraliza a imagem */
     border-radius: 10px;
     display: flex; /* Flexbox para centralizar conteúdo */
+    background-size: cover; 
+    background-position: center; 
+    display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -87,6 +134,7 @@ margin-bottom: 30px;
   
   .banner-content {
     background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para destacar o texto */
+    background-color: rgba(0, 0, 0, 0.5); 
     padding: 20px;
     border-radius: 10px;
   }
@@ -114,6 +162,3 @@ margin-bottom: 30px;
       font-size: 1rem;
     }
   }
-
-   
-
