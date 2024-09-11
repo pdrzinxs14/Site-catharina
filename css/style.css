@@ -4,12 +4,24 @@
     box-sizing: border-box;
   }
 
-  .body {
-    font-family: Arial, Helvetica, sans-serif
+  body {
+    font-family: 'myriad',Arial, Helvetica, sans-serif !important;
+    
   }
 
-
-
+  @font-face {
+    font-family: 'myriad';
+    src: url('../fonts/myriad-pro/MyriadPro-Light.otf') format('opentype'); /* Para .ttf */
+    /* ou use .woff, .woff2 se for o caso */
+  }
+  @font-face {
+    font-family: 'myriad-italic-titulo';
+    src: url('../fonts/myriad-pro/MYRIADPRO-SEMIBOLDIT.OTF') format('opentype'); /* Para .ttf */
+    /* ou use .woff, .woff2 se for o caso */
+  }
+  h5 {
+    font-family: 'myriad-italic-titulo',Arial, Helvetica, sans-serif !important;
+  }
 
 
   
