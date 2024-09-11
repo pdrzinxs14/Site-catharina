@@ -111,13 +111,14 @@ margin-bottom: 30px;
 /* Estilo para o banner */
 .banner {
     width: 100%;
-    max-width: 1400px;
-    height: 300px;
-    margin: 0;
+    max-width: 1200px;
+    height: 300px; /* Altura do banner */
+    margin: 20px auto;
     background-image: url('https://cdn.atletis.com.br/atletis-website/base/ff2/c73/2d8/organizar-evento-esportivo-escola.jpg'); /* Substitua pela URL da sua imagem */
-    background-size: cover; 
-    background-position: center; 
-    display: flex;
+    background-size: cover; /* Faz a imagem cobrir todo o banner */
+    background-position: center; /* Centraliza a imagem */
+    border-radius: 10px;
+    display: flex; /* Flexbox para centralizar conteúdo */
     justify-content: center;
     align-items: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -126,7 +127,7 @@ margin-bottom: 30px;
   }
   
   .banner-content {
-    background-color: rgba(0, 0, 0, 0.5); 
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para destacar o texto */
     padding: 20px;
     border-radius: 10px;
   }
