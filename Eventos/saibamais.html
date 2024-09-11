@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página do Evento</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    gap: 20px;
+    padding: 20px;
+}
+
+.evento-info {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.evento-info h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.evento-info p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+.evento-carrossel {
+    flex: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    height: 400px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-right: 50px;
+}
+
+.carousel {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+   
+}
+
+.carousel-img {
+    display: none;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-img.active {
+    display: block;
+    
+}
+
+.prev-btn, .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 2em;
+    z-index: 10;
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}
+.btn-voltar {
+    position: absolute;
+    top: 10px;
+    margin-top: 50px;
+right: 100px;
+    padding: 5px 20px;
+    background-color: #fff;
+    color: #171616;
+text-decoration: none;
+border-radius: 5px;
+}
+
+.btn-voltar:hover {
+background-color: #fff;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Seção de informações do evento -->
+        <div class="evento-info">
+            <h1>Nome do Evento</h1>
+            <p>Descrição completa do evento aqui. Pode incluir data, local, palestrantes e outras informações relevantes.</p>
+            <p>Mais detalhes sobre o evento, como agenda, atividades e informações de contato.</p>
+        </div>
+        <a href="eventos.html" class="btn-voltar">< Ver todos os Acontecimentos</a>
+        <!-- Carrossel de imagens -->
+        <div class="evento-carrossel">
+            <div class="carousel">
+                <img src="AMADOR.jfif" class="carousel-img active" alt="Imagem 1">
+                <img src="Fortnite - Copia.jpg" class="carousel-img" alt="Imagem 2">
+                <img src="55.jpg" class="carousel-img" alt="Imagem 3">
+            </div>
+            <button class="prev-btn" onclick="changeImage(-1)">&#10094;</button>
+            <button class="next-btn" onclick="changeImage(1)">&#10095;</button>
+        </div>
+    </div>
+
+    <script src="java.js"></script>
+</body>
+</html>
