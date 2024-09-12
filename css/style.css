@@ -236,8 +236,10 @@ html, body{
 }
 
 #qr_code_control {
-  height: 180px;
+  max-width: 150px;
+  height: auto;
 }
+
 
 #list_pad li {
   padding-bottom: 10px;
