@@ -211,3 +211,38 @@ html, body{
 #layout-footer {
   display: inline-block;
 }
+
+.color_back1 {
+  background-color: #081663!important;
+  color:  white;
+}
+
+.color_back1 ul {
+  list-style: none;
+  padding: 0;
+}
+
+.color_back1 a {
+  text-decoration: none;
+  color: white !important;
+}
+
+#logo_control {
+  height: 80px;
+  padding-left: 0;
+}
+
+#qr_code_control {
+  height: 180px;
+}
+
+#list_pad li {
+  padding-bottom: 10px;
+}
+
+.img_control {
+  height: 20px;
+  padding-right: 10px;
+}
+
+
