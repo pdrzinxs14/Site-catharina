@@ -174,7 +174,11 @@ html, body{
 .carousel-item.active img {
   transform: scale(1);
 }
-
+.menu li a:hover{
+  font-size: 22px;
+  
+  transition: 0.2s;
+}
 
 
 
