@@ -162,3 +162,36 @@ margin-bottom: 30px;
       font-size: 1rem;
     }
   }
+
+.bread-crumb{
+    background: url(imgs/4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 195px;
+}
+
+.bread-crumb h2{
+    color: #fff;
+}
+
+.bread-crumb a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.bread-crumb ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.bread-crumb li{
+    margin: 0;
+    padding: 0;
+}
+
+.bread-crumb ul li{
+    list-style: none;
+}
