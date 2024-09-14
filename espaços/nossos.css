@@ -20,6 +20,10 @@
 }
 .carousel-item img {
   border-radius: 10px;
+
+}
+.carousel-item {
+  transition: transform 2s ease-in-out, opacity 2s ease-in-out;
 }
 
 .texto-nosso {
