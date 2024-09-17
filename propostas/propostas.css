@@ -1,0 +1,166 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+
+  
+  body {
+    font-family: 'myriad',Arial, Helvetica, sans-serif !important;
+    
+  }
+  
+  @font-face {
+    font-family: 'myriad';
+    src: url('../fonts/myriad-pro/MyriadPro-Light.otf') format('opentype'); /* Para .ttf */
+    /* ou use .woff, .woff2 se for o caso */
+  }
+  @font-face {
+    font-family: 'myriad-italic-titulo';
+    src: url('../fonts/myriad-pro/MYRIADPRO-SEMIBOLDIT.OTF') format('opentype'); /* Para .ttf */
+    /* ou use .woff, .woff2 se for o caso */
+  }
+  .navbar-brand h2{
+    color: #333333;
+    font-weight: 700;
+  }
+  h5 {
+    font-family: 'myriad-italic-titulo',Arial, Helvetica, sans-serif !important;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link{
+    color: #333333 !important;
+    font-weight: 700;
+  }
+  
+  header li a{
+    color: #000000!important;
+  }
+  .dropdown-menu{
+    background-color: #081663!important;
+  }
+  .dropdown-menu li a{
+    color: white!important;
+  }
+  .nav-item a{
+    color: #c9d3d9!important;
+  }
+  .dropdown-item{
+    background-color: transparent!important;
+  }
+  
+  html, body{
+    height: 100%;
+  }
+
+  
+
+
+  
+  .conteudo{   /*codigo para espaçamento de cada bloco do site*/
+    max-width: 1140px;
+     margin: 0 auto;
+     padding: 10px 20px;
+  }
+  .conteudo-header{
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  .dropdown-menu li:hover{
+    background-color: #e3dddd9d!important;
+    transition: 0.2s;
+  }
+  .dropdown-menu a:hover{
+    color: black!important;
+  }
+  
+  .dropdown-menu{
+    padding: 0 !important;
+  }
+  
+  
+  
+  .footer-três{
+  color: #fff;
+  background-color: #1c2148;
+  text-align: center;
+  border-top: 12px solid #1c2148; /* Ajuste a cor e a espessura conforme necessário */
+  }
+  
+  
+  /* --Layout do Site-- */
+  #layout-footer {
+  display: inline-block;
+  }
+  
+  .color_back1 {
+  background-color: #262c58!important;
+  color:  white;
+  }
+  
+  .color_back1 ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+  }
+  
+  .color_back1 a {
+  text-decoration: none;
+  color: white !important;
+  }
+  
+  #logo_control {
+  height: 80px;
+  padding-left: 0;
+  }
+  
+  #qr_code_control {
+  max-width: 150px;
+  height: auto;
+  }
+  
+  
+  #list_pad li {
+  padding-bottom: 10px;
+  }
+  
+  .img_control {
+  height: 20px;
+  padding-right: 10px;
+  }
+  
+  /* CSS Gustavo */
+  
+  .menu-right i{
+  color: #c9d3d9;
+  }
+  
+  .linha{
+    background-color: #303875;
+    height: 146%;
+    width: 1px;
+    margin: 0 10px;
+    position: relative;
+    top: -10px;
+  }
+  
+  .navbar-nav .margin-i{
+    margin-right: 10px;
+  }
+  footer-style
+  .icons-footer i{
+    margin-right: 10px !important; 
+  }
+  
+  .redes-sociais i{
+    font-size: 22px;
+    margin-right: 15px !important;
+    font-weight: 900;
+  }
+  
+  .footer-style h3{
+    font-weight: 700 !important;
+    color: #95abb7;
+    font-size: 22px;
+  }
+ 
