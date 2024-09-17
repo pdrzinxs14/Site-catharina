@@ -344,16 +344,90 @@ margin-bottom: 30px;
   margin-left: 60px;
   color: aliceblue;
   margin-top: 0px;
+  font-family: 'myriad-italic-titulo';
 }
 .breadcrump p {
   margin-left: 60px;
   margin-bottom: 5px;
   margin-top: 30px;
-  
+  font-family: 'myriad';
   color: aliceblue;
 }
 .breadcrump p a {
   text-decoration: none;
   color: white;
+  font-family: 'myriad';
 }
 /* fim do breadcrump */
+.menu-right i{
+  color: #c9d3d9;
+  }
+  
+  .linha{
+    background-color: #303875;
+    height: 146%;
+    width: 1px;
+    margin: 0 10px;
+    position: relative;
+    top: -10px;
+  }
+  
+  .navbar-nav .margin-i{
+    margin-right: 10px;
+  }
+  footer-style
+  .icons-footer i{
+    margin-right: 10px !important; 
+  }
+  
+  .redes-sociais i{
+    font-size: 22px;
+    margin-right: 15px !important;
+    font-weight: 900;
+  }
+  
+  .footer-style h3{
+    font-weight: 700 !important;
+    color: #95abb7;
+    font-size: 22px;
+  }
+  #layout-footer {
+    display: inline-block;
+    }
+    
+    .color_back1 {
+    background-color: #262c58!important;
+    color:  white;
+    }
+    
+    .color_back1 ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+    }
+    
+    .color_back1 a {
+    text-decoration: none;
+    color: white !important;
+    }
+    
+    #logo_control {
+    height: 80px;
+    padding-left: 0;
+    }
+    
+    #qr_code_control {
+    max-width: 150px;
+    height: auto;
+    }
+    
+    
+    #list_pad li {
+    padding-bottom: 10px;
+    }
+    
+.img_control {
+  height: 20px;
+  padding-right: 10px;
+}
+  
