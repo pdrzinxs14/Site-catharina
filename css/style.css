@@ -15,7 +15,12 @@ body {
   /* ou use .woff, .woff2 se for o caso */
 }
 @font-face {
-  font-family: 'myriad-italic-titulo';
+  font-family: 'myriad-titulo';
+  src: url('../fonts/myriad-pro/MYRIADPRO-BOLD.OTF') format('opentype'); /* Para .ttf */
+  /* ou use .woff, .woff2 se for o caso */
+}
+@font-face {
+  font-family: 'myriad-italic-subtitulo';
   src: url('../fonts/myriad-pro/MYRIADPRO-SEMIBOLDIT.OTF') format('opentype'); /* Para .ttf */
   /* ou use .woff, .woff2 se for o caso */
 }
