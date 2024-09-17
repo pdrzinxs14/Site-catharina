@@ -107,7 +107,17 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease; /* Transições suaves para transformações, sombra e opacidade */
   }
 
+.custom-card img{
+  width: 100px;
+  display: flex;
+}
 
+.custom-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
   .custom-card:hover {
     transform: scale(1.05); /* Aumenta o tamanho do card em 5% ao passar o mouse */
