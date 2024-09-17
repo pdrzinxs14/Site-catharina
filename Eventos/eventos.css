@@ -329,35 +329,31 @@ margin-bottom: 30px;
     }
   }
 
-.bread-crumb{
-    background: url(imgs/4.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+/* breadcrump */
 
-    height: 195px;
-}
+.breadcrump{
+  background: url(imgs/4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 150px;
 
-.bread-crumb h2{
-    color: #fff;
 }
-
-.bread-crumb a{
-    text-decoration: none;
-    color: #fff;
+.breadcrump h1 {
+  margin-left: 60px;
+  color: aliceblue;
+  margin-top: 0px;
 }
-
-.bread-crumb ul{
-    display: flex;
-    margin: 0;
-    padding: 0;
+.breadcrump p {
+  margin-left: 60px;
+  margin-bottom: 5px;
+  margin-top: 30px;
+  
+  color: aliceblue;
 }
-
-.bread-crumb li{
-    margin: 0;
-    padding: 0;
+.breadcrump p a {
+  text-decoration: none;
+  color: white;
 }
-
-.bread-crumb ul li{
-    list-style: none;
-}
+/* fim do breadcrump */
