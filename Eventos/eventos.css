@@ -377,6 +377,62 @@ header li a{
   font-family: 'myriad-titulo';
 }
 
+/* Ajustes para o footer */
+.footer-style {
+  flex-wrap: wrap;
+}
+
+.footer-style div {
+  margin-bottom: 20px;
+}
+
+/* Tamanho dos ícones */
+.icons-footer i {
+  font-size: 18px;
+}
+
+/* Media queries para telas pequenas */
+@media (max-width: 768px) {
+  .footer-style {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-style div {
+    margin-bottom: 20px;
+  }
+
+  .footer-style ul {
+    padding-left: 0;
+  }
+
+  .footer-style h3, .footer-style h4 {
+    font-size: 1.25rem;
+  }
+
+  .icons-footer {
+    justify-content: center;
+  }
+
+  .redes-sociais a {
+    font-size: 20px;
+    margin: 0 10px;
+  }
+
+  .footer-três h6 {
+    font-size: 0.875rem;
+  }
+
+  #logo_control {
+    max-width: 150px;
+    margin-bottom: 20px;
+  }
+
+  #qr_code_control {
+    max-width: 150px;
+  }
+}
+
 
 
   
