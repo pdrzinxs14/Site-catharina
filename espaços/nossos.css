@@ -1,14 +1,11 @@
 /* citando css gerais */
+
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
-html, body{
-  height: 100%;
-
-}
-body {
+body{
   font-family: 'myriad';
 }
 .conteudo{   /*codigo para espaçamento de cada bloco do site*/
@@ -16,6 +13,13 @@ body {
   margin: 0 auto;
   padding: 10px 20px;
 }
+.container{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* fim dos css gerais */
 
 /* -------------------------- */
@@ -131,6 +135,14 @@ header li a{
 .dropdown a{
   font-family: 'myriad-italic-subtitulo';
 }
+.linha{
+  background-color: #303875;
+  height: 146%;
+  width: 1px;
+  margin: 0 10px;
+  position: relative;
+  top: -10px;
+}
 
 /* fim do menu */
 
@@ -156,13 +168,12 @@ header li a{
   margin-left: 60px;
   margin-bottom: 5px;
   margin-top: 30px;
-  font-family: 'myriad';
   color: aliceblue;
 }
 .breadcrump p a {
   text-decoration: none;
   color: white;
-  font-family: 'myrial';
+  font-family: 'myriad';
 }
 
 /* fim do breadcrump */
