@@ -27,7 +27,9 @@
   h5 {
     font-family: 'myriad-italic-titulo',Arial, Helvetica, sans-serif !important;
   }
-  
+  .nav-item a{
+    font-family: 'myriad-italic-subtitulo'
+  }
   .navbar-dark .navbar-nav .nav-link{
     color: #333333 !important;
     font-weight: 700;
