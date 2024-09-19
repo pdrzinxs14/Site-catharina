@@ -95,6 +95,18 @@
 
 
 
+
+.Proposta-pedagógica h1{
+  color: #0f2c52;
+
+}
+
+
+
+.text-img{
+  display: flex;
+}
+
 .propostas-tit h1{
 font-size: 50px;
 text-align: center;
