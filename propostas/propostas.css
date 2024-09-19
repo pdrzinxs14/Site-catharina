@@ -85,6 +85,15 @@
   
   
 
+
+
+
+.propostas-tit h1{
+font-size: 50px;
+text-align: center;
+color: #0f2c52;
+}
+
 /*cards*/
   .scrollable-carousel {
     display: flex;
@@ -107,6 +116,7 @@
     border-radius: 10px;
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease; /* Transições suaves para transformações, sombra e opacidade */
+    
   }
 
 
@@ -122,6 +132,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #fff;
 }
 
   .custom-card:hover {
