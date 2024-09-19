@@ -154,19 +154,23 @@
 
 
 
-    <section class="py-5" style="background-color: rgb(243, 243, 243);">
-        <div class="container carousel-controls">
+   <section class="py-5" style="background-color: rgb(243, 243, 243);">
+  <div class="container">
 
-        <div class="propostas-tit">
-          <h1><b>Entenda algumas de nossas <br> propostas pedagógicas</b></h1>
-        </div>
-        <br>
+    <!-- Título -->
+    <div class="propostas-tit text-center mb-4">
+      <h1><b>Entenda algumas de nossas <br> propostas pedagógicas</b></h1>
+    </div>
 
-          <div class="scrollable-carousel" id="carousel">
+    <!-- Cards responsivos -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
             <!-- Card 1 -->
-            <div class="carousel-item-wrapper">
-              <div class="custom-card">
-                <img src="../Logos/speak.png" alt="Imagem 1" class="card-img-top" style="padding-top: 52px; padding-bottom: 52px;">
+            <div class="col-md-4 mb-3">
+              <div class="custom-card card h-100">
+                <img src="../Logos/speak.png" alt="Imagem 1" class="card-img-top img-fluid" style="padding-top: 52px; padding-bottom: 52px;">
                 <div class="card-body">
                   <h3 class="card-title">Speak-Inglês</h3>
                   <p class="card-text">É um aplicativo para aprendizado da língua inglesa em nossa escola.</p>
@@ -174,10 +178,11 @@
                 </div>
               </div>
             </div>
+
             <!-- Card 2 -->
-            <div class="carousel-item-wrapper">
-              <div class="custom-card">
-                <img src="../Logos/tarefassp.png" alt="Imagem 2" class="card-img-top" style="padding-top: 20px; padding-bottom: 20px;">
+            <div class="col-md-4 mb-3">
+              <div class="custom-card card h-100">
+                <img src="../Logos/tarefassp.png" alt="Imagem 2" class="card-img-top img-fluid" style="padding-top: 20px; padding-bottom: 20px;">
                 <div class="card-body">
                   <h3 class="card-title">Tarefas CMSP</h3>
                   <p class="card-text">Descrição breve do conteúdo do card.</p>
@@ -185,10 +190,11 @@
                 </div>
               </div>
             </div>
+
             <!-- Card 3 -->
-            <div class="carousel-item-wrapper">
-              <div class="custom-card">
-                <img src="../Logos/khan.png" alt="Imagem 3" class="card-img-top" style="padding-top: 12px; padding-bottom: 12px;">
+            <div class="col-md-4 mb-3">
+              <div class="custom-card card h-100">
+                <img src="../Logos/khan.png" alt="Imagem 3" class="card-img-top img-fluid" style="padding-top: 12px; padding-bottom: 12px;">
                 <div class="card-body">
                   <h3 class="card-title">Khan Academy</h3>
                   <p class="card-text">Descrição breve do conteúdo do card.</p>
@@ -196,10 +202,15 @@
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row">
             <!-- Card 4 -->
-            <div class="carousel-item-wrapper">
-              <div class="custom-card">
-                <img src="../Logos/novotec.png" alt="Imagem 4" class="card-img-top" style="padding-top: 15px; padding-bottom: 15px;">
+            <div class="col-md-4 mb-3">
+              <div class="custom-card card h-100">
+                <img src="../Logos/novotec-2022.png" alt="Imagem 4" class="card-img-top img-fluid" style="padding-top: 15px; padding-bottom: 15px;">
                 <div class="card-body">
                   <h3 class="card-title">Novotec</h3>
                   <p class="card-text">Descrição breve do conteúdo do card.</p>
@@ -207,10 +218,11 @@
                 </div>
               </div>
             </div>
+
             <!-- Card 5 -->
-            <div class="carousel-item-wrapper">
-              <div class="custom-card">
-                <img src="../Logos/alura.png" alt="Imagem 5" class="card-img-top"  style="padding-top: 15px; padding-bottom: 15px;">
+            <div class="col-md-4 mb-3">
+              <div class="custom-card card h-100">
+                <img src="../Logos/alura.png" alt="Imagem 5" class="card-img-top img-fluid" style="padding-top: 15px; padding-bottom: 15px;">
                 <div class="card-body">
                   <h3 class="card-title">Alura</h3>
                   <p class="card-text">Descrição breve do conteúdo do card.</p>
@@ -218,21 +230,36 @@
                 </div>
               </div>
             </div>
+
             <!-- Card 6 -->
-            <div class="carousel-item-wrapper">
-              <div class="custom-card">
-                <img src="../Logos/mesalva.png" alt="Imagem 6" class="card-img-top"  style="padding-top: 37px; padding-bottom: 37px;">
+            <div class="col-md-4 mb-3">
+              <div class="custom-card card h-100">
+                <img src="../Logos/mesalva.png" alt="Imagem 6" class="card-img-top img-fluid" style="padding-top: 37px; padding-bottom: 37px;">
                 <div class="card-body">
                   <h3 class="card-title">Me Salva</h3>
-                  <p class="card-text">Descrição breve do conteúdo dsavv  sjssssssssssso card.</p>
+                  <p class="card-text">Descrição breve do conteúdo do card.</p>
                   <a href="#" class="btn btn-primary">Saiba mais</a>
                 </div>
               </div>
             </div>
-        
+          </div>
         </div>
+      </div>
 
-      </section>
+      <!-- Controles de Navegação Abaixo -->
+      <div class="text-center mt-3">
+        <button class="btn btn-outline-secondary" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span>Anterior</span>
+        </button>
+        <button class="btn btn-outline-secondary" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span>Próximo</span>
+        </button>
+      </div>
+    </div>
+
+  </div>
+</section>
+
 
 
  </main>
