@@ -50,7 +50,6 @@ body{
 .navbar-brand h2{
   color: #333333;
   font-weight: 700;
-  font-family: 'myriad-titulo';
 }
 .navbar-dark .navbar-nav .nav-link{
   color: #333333 !important;
@@ -67,7 +66,7 @@ header li a{
 }
 .nav-item a{
   color: #c9d3d9!important;
-  font-family: 'myriad-italic-subtitulo';
+ 
 }
 .dropdown-item{
   background-color: transparent!important;

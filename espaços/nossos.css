@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 body{
-  font-family: 'myriad';
+  font-family: 'myriad', Arial, Helvetica, sans-serif !important;
 }
 .conteudo{   /*codigo para espaçamento de cada bloco do site*/
   max-width: 1140px;
@@ -100,14 +100,12 @@ h5 {
 }
 .navbar-dark .navbar-nav .nav-link{
   color: #333333 !important;
-  font-weight: 700;
 }
 header li a{
   color: #000000!important;
 }
 .nav-item a{
   color: #c9d3d9!important;
-  font-family: 'myriad-italic-subtitulo';
 }
 .dropdown-item{
   background-color: transparent!important;
@@ -132,9 +130,7 @@ header li a{
   max-width: 1140px;
   margin: 0 auto;
 }
-.dropdown a{
-  font-family: 'myriad-italic-subtitulo';
-}
+
 .linha{
   background-color: #303875;
   height: 146%;
