@@ -147,7 +147,7 @@
   /* breadcrump */
   
   .breadcrump{
-    background: url(../Eventos/imgs/4.jpg);
+    background: url(../Plataformas-site/imagens/bread.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -218,6 +218,56 @@
       height: 40px;
     }
   }
+
+
+/*cards*/
+.scrollable-carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 1rem; /* Espaçamento entre os cards */
+  padding-bottom: 1rem;
+}
+
+.scrollable-carousel::-webkit-scrollbar {
+  display: none; /* Esconde a barra de rolagem no Chrome */
+}
+
+.carousel-item-wrapper {
+  flex: 0 0 auto; /* Mantém os itens na mesma linha */
+  width: 16rem; /* Largura dos cards */
+}
+
+.custom-card {
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease; /* Transições suaves para transformações, sombra e opacidade */
+  
+}
+
+
+
+.custom-card img{
+width: 100px;
+display: flex;
+}
+
+.custom-card{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: #fff;
+}
+
+.custom-card:hover {
+  transform: scale(1.05); /* Aumenta o tamanho do card em 5% ao passar o mouse */
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra suave ao card */
+  opacity: 0.9; /* Diminui a opacidade para um efeito de destaque */
+  }
+
+
+
 
 
 
