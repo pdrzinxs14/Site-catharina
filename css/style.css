@@ -345,3 +345,18 @@ margin-bottom: 30px;
     max-width: 150px;
   }
 }
+
+
+/* Footer responsivo */
+
+.footer-style div {
+  margin-bottom: 20px !important;
+}
+
+/* Menu responsivo */
+
+@media(max-width: 576px){
+  .ms-auto{
+    margin-left: 0 !important;
+  }
+}
