@@ -147,61 +147,96 @@
     <p><a href="../Index.html">Home</a> • <a href="nossos-espacos.html">Espaços</a></p>
     <h1>Nossos Espaços</h1>
   </div>
-</div>
+</div><br>
 <div class="container-nosso">
     <div class="titulo-espacos">
       <h1 class="text-center text-black " style="font-weight: 900;">Nossos Espaços</h1>
       <div class="hrBorda mb-4"></div>
     </div>
     <div class="texto-nosso">
-        <p class="text-center">O colégio Amador e Catharina oferece uma infraestrutura moderna e acolhedora, projetada para potencializar o aprendizado e promover o desenvolvimento integral dos alunos</p>
+        <p class="text-center">O colégio Amador e Catharina oferece uma infraestrutura moderna e acolhedora, <br> projetada para potencializar o aprendizado e promover o desenvolvimento integral dos alunos</p>
     </div>
-</div>
-<div class="container mt-5 d-flex justify-content-center">
-  <!-- Carousel -->
-  <div id="carouselExample" class="carousel slide" data-bs-ride="false" style="width: 800px; height: 300px;">
-    <!-- Imagens do Carousel -->
-    <div class="carousel-inner" style="height: 100%;">
-      <div class="carousel-item active">
-        <img src="https://via.placeholder.com/800x300" class="d-block w-100" alt="Imagem 1">
-      </div>
-      <div class="carousel-item">
-        <img src="https://via.placeholder.com/800x300" class="d-block w-100" alt="Imagem 2">
-      </div>
-      <div class="carousel-item">
-        <img src="https://via.placeholder.com/800x300" class="d-block w-100" alt="Imagem 3">
-      </div>
-      <div class="carousel-item">
-        <img src="https://via.placeholder.com/800x300" class="d-block w-100" alt="Imagem 4">
-      </div>
-    </div>
+</div><br><br>
 
-    <!-- Controles de seta -->
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
+<div class="filter-buttons">
+  <button data-filter="all" class="active">Todos</button>
+  <button data-filter="esporte">Esporte</button>
+  <button data-filter="educacao">Educação</button>
+  <button data-filter="lazer">Lazer</button>
+</div>
+
+<section class="gallery">
+  <div class="gallery-item" data-category="educacao">
+      <div class="image-slider">
+          <img src="minecraft.jpg" alt="Biblioteca 1">
+          <img src="Mario.jpg" alt="Biblioteca 2">
+      </div>
+      <div class="gallery-info">
+          <h2>Biblioteca</h2>
+          <p>Um espaço tranquilo para leitura e estudos.</p>
+      </div>
+  </div>
+
+  <div class="gallery-item" data-category="esporte">
+      <video src="quadra_video.mp4" controls></video>
+      <div class="gallery-info">
+          <h2>Quadra de Esportes</h2>
+          <p>Ambiente ideal para a prática esportiva.</p>
+      </div>
+  </div>
+
+  <div class="gallery-item" data-category="educacao">
+      <img src="minecraft5.webp" alt="Laboratório">
+      <div class="gallery-info">
+          <h2>Laboratório</h2>
+          <p>Espaço para experiências científicas e descobertas.</p>
+      </div>
+  </div>
+
+  <div class="gallery-item" data-category="lazer">
+      <img src="mine.jpg" alt="Auditório">
+      <div class="gallery-info">
+          <h2>Auditório</h2>
+          <p>Local para eventos e apresentações da escola.</p>
+      </div>
+  </div>
+  
+  <div class="gallery-item" data-category="lazer">
+      <img src="mine.jpg" alt="Auditório">
+      <div class="gallery-info">
+          <h2>Auditório</h2>
+          <p>Local para eventos e apresentações da escola.</p>
+      </div>
+  </div>
+
+  <div class="gallery-item" data-category="todos">
+      <img src="mine.jpg" alt="Auditório">
+      <div class="gallery-info">
+          <h2>Auditório</h2>
+          <p>Local para eventos e apresentações da escola.</p>
+      </div>
+  </div>
+</section>
+
+<!-- Modal para Imagem -->
+<div id="myModal" class="modal">
+  <span class="close-image close">&times;</span>
+  <div class="modal-content">
+      <img id="modalImage" src="" alt="Imagem ampliada">
   </div>
 </div>
 
-<!-- Miniaturas abaixo do Carousel -->
-
-<div class="container mt-3 d-flex justify-content-center carrousel-querido">
-  <div class="carousel-thumbnails d-flex justify-content-between" style="width: 800px;">
-    <img src="https://via.placeholder.com/200x100" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active-thumbnail" alt="Thumbnail 1">
-    <img src="https://via.placeholder.com/200x100" data-bs-target="#carouselExample" data-bs-slide-to="1" alt="Thumbnail 2">
-    <img src="https://via.placeholder.com/200x100" data-bs-target="#carouselExample" data-bs-slide-to="2" alt="Thumbnail 3">
-    <img src="https://via.placeholder.com/200x100" data-bs-target="#carouselExample" data-bs-slide-to="3" alt="Thumbnail 4">
+<!-- Modal para Vídeo -->
+<div id="videoModal" class="modal">
+  <span class="close-video close">&times;</span>
+  <div class="modal-content">
+      <video id="modalVideo" controls>
+          <source src="" id="modalVideoSource" type="video/mp4">
+          Seu navegador não suporta a tag de vídeo.
+      </video>
   </div>
 </div>
 
-<!-- fim das miniaturas -->
-
-<!-- -------------------------- -->
 
 <!-- começo do banner -->
 
