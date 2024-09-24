@@ -62,13 +62,6 @@
   html, body{
     height: 100%;
   }
-
-  
-
-
-
-
-
   
   .conteudo{   /*codigo para espaçamento de cada bloco do site*/
     max-width: 1140px;
@@ -117,13 +110,42 @@
     color: white;
     font-family: 'myriad';
   }
+
+
+  .carousel-thumbnails img {
+    cursor: pointer;
+    width: 80px; /* Tamanho das miniaturas */
+    height: 60px;
+    margin: 5px;
+    border: 2px solid transparent;
+    object-fit: cover;
+    border-radius: 10px;
+  }
   
+  .carousel-thumbnails img.active-thumbnail {
+    border-color: #007bff;
+  }
+  
+  .carousel-item img {
+    border-radius: 10px;
+    width: 100%; /* Ajusta a largura da imagem para 100% */
+    height: auto; /* Mantém a proporção da imagem */
+  }
+  
+  /* Container do carrossel e miniaturas */
+  .carousel-container {
+    max-width: 600px; /* Ajuste da largura do carrossel */
+    margin: 0 auto; /* Centraliza o carrossel */
+  }
 
 
-
-
-
-
+  @media (max-width: 768px) {
+    /* Tornar o layout responsivo para telas menores */
+    .carousel-thumbnails img {
+      width: 60px;
+      height: 40px;
+    }
+  }
 
 .Proposta-pedagógica h1{
   color: #0f2c52;
