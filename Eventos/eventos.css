@@ -252,6 +252,41 @@ header li a{
   color: #fff; /* Cor do texto */
   text-align: center;
 }
+.container-3 {
+  background-color: #14c3e3;
+  max-width: 1500px !important;
+  position: relative;
+  margin-top: 30px; 
+  display: flex !important;
+}
+.menina-do-novotec{
+  float: inline-end;
+  height: 236px;
+  position: relative;
+  top: -46px;
+  width: 400px;
+  right: 150px;
+}
+.textinho-banner{
+  color: #0f2c52;
+  font-family: 'myriad-titulo';
+}
+.butaosinho {
+  position: relative;
+  border-radius: 10px;
+  background-color: #fdd80d;
+  border: 0px;
+  margin-bottom: 10px;
+  height: 35px;
+  width: 150px;
+
+}
+.butaosinho p {
+  color: #0f2c52;
+  padding-top: 6px;
+  font-family: 'myriad-titulo';
+}
+
 .banner-content {
   background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para destacar o texto */
   background-color: rgba(0, 0, 0, 0.5); 
@@ -341,40 +376,6 @@ header li a{
 
 /* fim do footer */
   
-.container-3 {
-  background-color: #14c3e3;
-  max-width: 1500px !important;
-  position: relative;
-  margin-top: 30px; 
-  display: flex !important;
-}
-.menina-do-novotec{
-  float: inline-end;
-  height: 236px;
-  position: relative;
-  top: -46px;
-  width: 400px;
-  right: 150px;
-}
-.textinho-banner{
-  color: #0f2c52;
-  font-family: 'myriad-titulo';
-}
-.butaosinho {
-  position: relative;
-  border-radius: 10px;
-  background-color: #fdd80d;
-  border: 0px;
-  margin-bottom: 10px;
-  height: 35px;
-  width: 150px;
-
-}
-.butaosinho p {
-  color: #0f2c52;
-  padding-top: 6px;
-  font-family: 'myriad-titulo';
-}
 
 /* Ajustes para o footer */
 .footer-style {
