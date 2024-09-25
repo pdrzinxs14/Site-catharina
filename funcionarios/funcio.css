@@ -183,6 +183,9 @@ header li a{
 .carousel-thumbnails img.active-thumbnail {
     border-color: #007bff;
 }
+.atalhos-mini {
+    background-color: #212529 !important;
+}
   
 .carousel-item img {
     margin-top: 30px;
@@ -206,6 +209,12 @@ header li a{
       height: 40px;
     }
 }
+.hrBorda{
+    background-color: #485e88;
+    height: 3px;
+    width: 60px;
+    margin: 0 auto;
+  }
 
 .scrollable-carousel {
     display: flex;
@@ -235,18 +244,23 @@ header li a{
   display: flex;
 }
 .custom-card p {
-    color: rgb(0, 0, 0);
-}
-.titulinho {
     color: white;
 }
-
+.titulinho {
+    color: #001f3f;
+}
+.card-body p {
+    color: white;
+}
+.card-body h3 {
+    color: white;
+}
 .custom-card{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: white !important;
+  background-color: #001f3f !important;
 }
   
 .custom-card:hover {
@@ -264,8 +278,8 @@ header li a{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
+    background-color: rgba(0, 0, 0, 0.258);
+    
     border: none;
     padding: 10px;
     cursor: pointer;
