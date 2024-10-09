@@ -238,7 +238,16 @@ header li a{
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease; /* Transições suaves para transformações, sombra e opacidade */
 }
-  
+.card {
+    width: 1000px;
+    height: 400px;
+}
+.card-body {
+    background-image: url(../imagem.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .custom-card img{
   width: 100px;
   display: flex;
@@ -249,12 +258,7 @@ header li a{
 .titulinho {
     color: #001f3f;
 }
-.card-body p {
-    color: white;
-}
-.card-body h3 {
-    color: white;
-}
+
 .custom-card{
   display: flex;
   flex-direction: column;
