@@ -345,10 +345,28 @@
   }
 
   .hrBorda {
-    background-color: #485e88;
+    background-color: #f6c206;
     height: 3px;
     width: 60px;
+    display: block;
     margin: 0 auto;
+  }
+  .hrBorder{
+
+    background-color: #0a0906;
+    height: 3px;
+    width: 60px;
+    display: block;
+    margin: 0 auto;
+    margin-left: 610px;
+    
+  }
+  .texto-subtitulo{
+
+    font-size:smaller;
+  }
+  .subtitulo-texto2{
+    margin-top: 60px;
   }
 </style>
 
@@ -489,8 +507,12 @@
     <main>
       <div class="bannervitoria"> </div>
       <div class="sobre-nos">
-        <h1>Sobre nós</h1>
+        <h1 class="nossa-equipe" style="color: #1c2148; align-items: center;">Sobre nós</h1>
+       
       </div>
+      <div class="hrBorder mb-5" style="background-color: #001f3f;"></div>
+      
+      
      
 
     
@@ -505,21 +527,19 @@
         <div class="row">
           <!-- Texto à esquerda -->
           <div class="col-md-6">
-            <p>
-              A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding
-              quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.
-            </p>
-      
-            <p>
-              As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look
-              with some actual content in here, rather than just this boring placeholder text that goes on and on, but
-              actually conveys no tangible information at. It simply takes up space and should not really be read.
-            </p>
-      
-            <p>
-              And yet, here you are, still persevering in reading this placeholder text, hoping for some mais insights,
-              or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that aqui.
-            </p>
+            <h4><b>subtitulo</b></h4>
+           <p class="texto-subtitulo">Aqui, na Escola Amador e Catarina Saporito Augusto, você está prestes a entrar em um
+            ambiente de aprendizado acolhedor e dinâmico, onde cada detalhe é pensado para
+            oferecer uma educação de qualidade e uma experiência escolar inesquecível. <br><br>
+            Nossa escola é mais do que um local de ensino; é uma comunidade onde o
+            respeito, a cooperação e o crescimento pessoal são altamente valorizados
+            desde o primeiro momento em que você pisa em nossas instalações, vai perceber o
+            cuidado que temos com cada aspecto do nosso. <br><br>
+            As salas de aula são
+            projetadas para ser espaços confortáveis e inspiradores, equipadas com tudo o
+            que é necessário para garantir uma educação moderna e eficaz.Eles estão sempre prontos para ouvir, ajudar
+            e motivar, criando um ambiente onde cada aluno pode se sentir valorizado e
+            confiante </p> 
           </div>
       
           <!-- Imagem à direita -->
@@ -549,25 +569,10 @@
 
           <!-- Texto à direita -->
           <div class="col-md-6">
-            <p>
-              A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding
-              quite
-              a few meaningless phrases here to demonstrate how the columns interact here with the floated image.
-            </p>
-
-            <p>
-              As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look
-              with
-              some actual content in here, rather than just this boring placeholder text that goes on and on, but
-              actually
-              conveys no tangible information at. It simply takes up space and should not really be read.
-            </p>
-
-            <p>
-              And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights,
-              or
-              some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
-            </p>
+            <p class="texto-subtitulo">Os nossos professores são apaixonados pelo que fazem e estão aqui para guiar e apoiar você em cada etapa da sua jornada educacional. Eles não são apenas mestres em suas disciplinas, mas também mentores que se preocupam com o seu desenvolvimento como um todo</p>
+            <h4><b>Localização</b></h4>
+            <p class="texto-subtitulo">
+              O Parque Esmeralda é um bairro residencial na zona sul de São Paulo, conhecido por sua atmosfera tranquila e ambiente familiar. Ele oferece segurança comunitária, uma infraestrutura bem desenvolvida com escolas, creches, centros de saúde e comércio local variado, como supermercados e padarias. <br><br> O bairro é rico em áreas verdes e espaços de lazer, ideal para famílias que buscam qualidade de vida. Além disso, possui acesso fácil a transporte público e principais vias, facilitando a locomoção para outras áreas da cidade. Com uma forte sensação de comunidade, eventos locais promovem a interação entre os moradores. Em suma, o Parque Esmeralda combina tranquilidade com conveniência urbana. </p>
           </div>
         </div>
       </div>
@@ -580,12 +585,16 @@
     </main>
 
     <div class="container-fluid py-5" style="background-color: #001f3f;">
+      <h1 class="nossa-equipe" style="color: #e0a00b; margin-top: 10px;">Nossa Equipe</h1>
+      <div class="hrBorda mb-5"></div>
+      
       <div class="row">
-        <h1 class="nossa-equipe" style="color: #e0a00b; margin-top: 10px;">Nossa Equipe</h1>
+       
+        
         <!-- Card 1 -->
         <div class="col-md-3 p-0">
           <div class="card text-center" style="background-color: #001f3f; border: none;">
-            <img src="imagem.jpg" class="card-img-top rounded-circle mx-auto d-block" alt="Imagem 1"
+            <img src="imgs/Jhonny img 2.jfif" class="card-img-top rounded-circle mx-auto d-block" alt="Imagem 1"
               style="width: 150px; height: 150px;">
             <div class="card-body" style="color: white;">
               <h5 class="card-title">Card 1</h5>
