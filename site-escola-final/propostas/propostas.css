@@ -1,4 +1,39 @@
-.breadcrump{
+
+
+body {
+  font-family: 'myriad',Arial, Helvetica, sans-serif !important;
+  
+}
+@font-face {
+  font-family: 'myriad';
+  src: url('../fonts/myriad-pro/MyriadPro-Light.otf') format('opentype'); /* Para .ttf */
+  /* ou use .woff, .woff2 se for o caso */
+}
+@font-face {
+  font-family: 'myriad-titulo';
+  src: url('../fonts/myriad-pro/MYRIADPRO-BOLD.OTF') format('opentype'); /* Para .ttf */
+  /* ou use .woff, .woff2 se for o caso */
+}
+@font-face {
+  font-family: 'myriad-italic-subtitulo';
+  src: url('../fonts/myriad-pro/MYRIADPRO-SEMIBOLDIT.OTF') format('opentype'); /* Para .ttf */
+  /* ou use .woff, .woff2 se for o caso */
+}  
+.conteudo{   /*codigo para espaçamento de cada bloco do site*/
+  max-width: 1140px;
+   margin: 0 auto;
+   padding: 10px 20px;
+}
+.hrBorda{
+  background-color: #4876a0;
+  height: 3px;
+  width: 60px !important;
+  margin: 0 auto !important  ;
+  display: block !important;
+}
+
+ 
+ .breadcrump{
     background: url(../Eventos/imgs/4.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -12,9 +47,7 @@
     margin-top: 0px;
     font-family: 'myriad-titulo' !important;
   }
-  .carousel-controls{
-    
-  }
+  
   .breadcrump p {
     margin-left: 60px;
     margin-bottom: 5px;
