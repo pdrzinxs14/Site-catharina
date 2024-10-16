@@ -37,6 +37,10 @@
 
 /* -------------------------- */
 
+.texto-nosso {
+  font-size: 22px;
+}
+
 .filter-buttons {
   text-align: center;
   margin-bottom: 20px;
