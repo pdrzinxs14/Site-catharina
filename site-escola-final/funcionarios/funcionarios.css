@@ -81,7 +81,10 @@
     height: 400px !important;
     transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease; /* Transições suaves para transformações, sombra e opacidade */
 }
-  
+.card-img-3 img{
+height: 480px !important;
+margin-bottom: 30px;    
+}
 .custom-card img{
   width: 1000px;
   display: flex;
